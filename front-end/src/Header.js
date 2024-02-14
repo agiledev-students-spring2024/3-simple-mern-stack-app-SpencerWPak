@@ -32,6 +32,9 @@ const Header = props => {
             <Link to="/messages">Messages</Link>
           </li>
           <li className="nav-item">
+            <Link to="/about-us">About Us</Link>
+          </li>
+          <li className="nav-item">
             {user ? (
               <Link to="/logout" onClick={handleLogout}>
                 Log out {user.handle}
